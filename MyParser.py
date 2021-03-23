@@ -5,7 +5,7 @@ class ToParse_ATQ:
     def __init__(self,mydirectory):
         self.mydirectory=mydirectory
         self.myfiles,self.mytrees=self.get_file_n_tree()
-        self.mabalise="AT %Q*"
+        self.mabalise="AT %Q*" #change with yours
         self.mydata=self.get_all_vars()
     def get_all_vars(self):
         List_all_vars=[]
