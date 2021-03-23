@@ -46,7 +46,7 @@ class ToParse_ATQ:
         return fichiers,mytrees
 
 if __name__== "__main__":
-    # mondossierdata="C:\\Users\\Elève\\Desktop\\Parser_Data\\ToParse"
-    MonParser=ToParse_ATQ(mondossierdata)
+    # mydatafolder= specify your folder her
+    MonParser=ToParse_ATQ(mydatafolder)
     MesDonnees=MonParser.mydata
     for dic in MesDonnees:print(dic)
